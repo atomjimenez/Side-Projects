@@ -1,0 +1,11 @@
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.exe
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.deps.json
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.runtimeconfig.json
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.runtimeconfig.dev.json
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.dll
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.pdb
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.csprojAssemblyReference.cache
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.AssemblyInfoInputs.cache
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.AssemblyInfo.cs
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.dll
+C:\Users\atomj\OneDrive\Documents\MSSA\Side Gigs\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.pdb

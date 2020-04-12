@@ -1,0 +1,78 @@
+﻿@model Acongrebility.Models.Bills
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Bills</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LegalName" class="control-label"></label>
+                <input asp-for="LegalName" class="form-control" />
+                <span asp-validation-for="LegalName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StreetName" class="control-label"></label>
+                <input asp-for="StreetName" class="form-control" />
+                <span asp-validation-for="StreetName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProposedBy" class="control-label"></label>
+                <input asp-for="ProposedBy" class="form-control" />
+                <span asp-validation-for="ProposedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="PassedHouse" /> @Html.DisplayNameFor(model => model.PassedHouse)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="PassedSenate" /> @Html.DisplayNameFor(model => model.PassedSenate)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateProposed" class="control-label"></label>
+                <input asp-for="DateProposed" class="form-control" />
+                <span asp-validation-for="DateProposed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatePassedFailed" class="control-label"></label>
+                <input asp-for="DatePassedFailed" class="form-control" />
+                <span asp-validation-for="DatePassedFailed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RepSupport" class="control-label"></label>
+                <input asp-for="RepSupport" class="form-control" />
+                <span asp-validation-for="RepSupport" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DemSupport" class="control-label"></label>
+                <input asp-for="DemSupport" class="form-control" />
+                <span asp-validation-for="DemSupport" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IndSupport" class="control-label"></label>
+                <input asp-for="IndSupport" class="form-control" />
+                <span asp-validation-for="IndSupport" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

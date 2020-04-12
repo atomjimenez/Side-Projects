@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Acongrebility.Models.Bills>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LegalName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StreetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProposedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PassedHouse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PassedSenate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateProposed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatePassedFailed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RepSupport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DemSupport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IndSupport)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LegalName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StreetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProposedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PassedHouse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PassedSenate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateProposed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DatePassedFailed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RepSupport)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DemSupport)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IndSupport)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

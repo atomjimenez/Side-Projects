@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acongrebility", "Acongrebility\Acongrebility.csproj", "{0BDB74BA-2A4D-4246-9A64-2B82BF7A29D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BDB74BA-2A4D-4246-9A64-2B82BF7A29D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDB74BA-2A4D-4246-9A64-2B82BF7A29D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDB74BA-2A4D-4246-9A64-2B82BF7A29D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDB74BA-2A4D-4246-9A64-2B82BF7A29D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DD28233-3C7D-474A-89A8-F95B3F387F9D}
+	EndGlobalSection
+EndGlobal
